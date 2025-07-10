@@ -1,4 +1,4 @@
-package com.example.demo.coontroller;
+package com.example.demo.controller;
 
 import com.example.demo.model.CloudVendor;
 import com.example.demo.service.CloudVendorService;
