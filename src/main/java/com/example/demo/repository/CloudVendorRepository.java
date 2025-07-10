@@ -1,4 +1,10 @@
 package com.example.demo.repository;
 
-public class CloudVendorRepository {
+import com.example.demo.model.CloudVendor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CloudVendorRepository extends JpaRepository <CloudVendor, String> {
+    //write custom method if not in JPA
+
 }
+
